@@ -1,3 +1,83 @@
 body {
     background: #eceff1;
+    margin: 0;
+}
+
+.wrapper {
+    padding: 20px 80px 0 40px;
+}
+.logo{
+    float: left;
+}
+.logo img{
+    vertical-align: middle;
+}
+.navbar {
+    list-style: none;
+    font-weight: bold;
+    margin-bottom: 10px;
+    float: left; 
+    width: 100%;
+    background: #fff;
+    border: 1px solid #ccc;
+    border-radius: 4px;
+    padding: 10px;
+
+}
+.navbar li {
+    float: left;
+    position: relative;
+    
+}
+.navbar a {
+    display: block;
+    padding:5px 20px;
+    color: #000;
+    background-color: #fff;
+    text-decoration: none;
+}
+.navbar a:hover {
+    color: #000;
+    background-color: #fff;
+    text-decoration: underline;
+}
+
+.navbar ul {
+    background-color: #fff; 
+    background: rgba(255,255,255,0); 
+    list-style: none;
+    position: relative;
+    margin: 0;
+    float: right;
+}
+.navbar ul li {
+    padding-top: 1px;
+}
+.navbar ul a {
+    white-space: nowrap; 
+}
+.navbar li ul {
+    position: absolute;
+    border: 1px solid #ccc;
+    border-radius: 4px;
+    background: #fff;
+    display: none;
+    padding: 5px;
+}
+.navbar li:hover ul {
+    display: block; 
+}
+.navbar li:hover a { 
+    background-color: #333;
+    color: #fff;
+    text-decoration: none;
+}
+.navbar li:hover ul a { 
+    text-decoration: none;
+    background-color: #fff;
+    color:#000;
+}
+.navbar li:hover ul li a:hover { 
+    background-color: #333;
+    color: #fff;
 }
